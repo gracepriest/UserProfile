@@ -1,0 +1,80 @@
+body{
+    background-image: url("backimage.jpg");
+    
+}
+.leftSide{
+    margin-top: 9em;
+}
+.topBanner{
+    height: 65px;
+    margin-left: 15%;
+   
+    background-color: #312686;
+    border: 1px solid blue;
+    background-image: url("scifiNav.png");
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 400px) {
+    .topBanner {
+        margin-left: -58%;
+    }
+  }
+
+.banner{
+    /* background-color: red; */
+    
+}
+
+.navTxt{
+    font-size: 35px;
+    color: white;
+    
+    
+}
+.navA{
+    margin-left: 6px;
+}
+.navA2{
+    margin-left: 18.1em;
+}
+.navA3{
+    margin-left: 10px;
+}
+.borderStyle{
+    border: 1px solid red; 
+    height: 45px;
+    width: 67px;
+    margin-top: 10px;
+}
+.borderStyle2{
+    border: 1px solid red; 
+    height: 47px;
+    width: 57px;
+    margin-top: 9px;
+    
+}
+
+.Main{
+  
+  margin-left: -1000px;
+  margin-top: 300px;
+  width: 65em;
+}
+tr:nth-of-type(odd) {
+    background-color: #0f1d2b;
+    color: white;
+  }
+  tr:nth-of-type(even) {
+    background-color: #2871bb;
+    color: white;
+  }
+
+
+@media only screen and (max-width: 650px) {
+    .Main {
+        Margin-top: 900px;
+        margin-left: -980px;
+    }
+  }
+  
+  
