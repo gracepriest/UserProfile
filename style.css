@@ -1,29 +1,23 @@
 body{
     background-image: url("backimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .leftSide{
-    margin-top: 9em;
+    margin-top: 1em;
 }
 .topBanner{
     height: 65px;
-    margin-left: 15%;
-   
+    width: fit-content;
     background-color: #312686;
     border: 1px solid blue;
     background-image: url("scifiNav.png");
     background-repeat: no-repeat;
-}
-@media only screen and (max-width: 400px) {
-    .topBanner {
-        margin-left: -58%;
-    }
-  }
-
-.banner{
-    /* background-color: red; */
     
 }
+
+
 
 .navTxt{
     font-size: 35px;
@@ -32,10 +26,10 @@ body{
     
 }
 .navA{
-    margin-left: 6px;
+    margin-left: -5px;
 }
 .navA2{
-    margin-left: 18.1em;
+    margin-left: 17.9em;
 }
 .navA3{
     margin-left: 10px;
@@ -54,27 +48,40 @@ body{
     
 }
 
-.Main{
-  
-  margin-left: -1000px;
-  margin-top: 300px;
-  width: 65em;
+  .characterStats p {
+    margin-bottom: 0.5rem;
+    padding: 5px;
+    border-radius: 4px;
 }
-tr:nth-of-type(odd) {
-    background-color: #0f1d2b;
-    color: white;
-  }
-  tr:nth-of-type(even) {
-    background-color: #2871bb;
-    color: white;
-  }
+.sideLink{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: block; 
+}
+.sideLink:hover{
+    background: rgba(33, 150, 243, 0.1);
+    color: #2196f3;
+}
 
+.characterCard{
+    background: rgba(33, 150, 243, 0.1);
+    border: 1px solid #2196f3;
+    border-radius: 8px;
+}
 
-@media only screen and (max-width: 650px) {
-    .Main {
-        Margin-top: 900px;
-        margin-left: -980px;
-    }
-  }
-  
-  
+.tableStats{
+    margin-top: 12%;
+}
+.tranBack{
+    background: rgba(33, 150, 243, 0.1);
+}
+.tranBackDarker{
+    background: rgba(33, 150, 243, 0.6);
+}
+.serverStats{
+    margin-top: 16em;
+}
+.rightSide{
+    margin-top: 8em;
+}
